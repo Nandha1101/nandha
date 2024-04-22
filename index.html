@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700;800&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="general.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="queries.css" />
+
+        <script defer src="script.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+
+        <title>Climate Change</title>
+    </head>
+    <body>
+        <header class="header">
+            <a href="#">
+                <img
+                    src="Climate Change-logo-black.png"
+                    alt="Climate Change Logo"
+                    class="logo"
+                />
+            </a>
+
+            <nav class="main-nav">
+                <ul class="main-nav-list">
+                    <li>
+                        <a
+                            href="#background"
+                            class="main-nav-link main-nav-link--underline"
+                            >Background</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#problem"
+                            class="main-nav-link main-nav-link--underline"
+                            >The Problem</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#quotes"
+                            class="main-nav-link main-nav-link--underline"
+                            >Quotes</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="#grey-areas"
+                            class="main-nav-link main-nav-link--underline"
+                            >Complexities</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#cta" class="main-nav-link nav-cta"
+                            >Take Action</a
+                        >
+                    </li>
+                </ul>
+            </nav>
+            <button href="#" class="toggle-button">
+                <ion-icon name="menu" class="bar"></ion-icon>
+                <ion-icon name="close" class="bar"></ion-icon>
+            </button>
+        </header>
+        <main>
+            <section class="section-hero">
+                <div class="hero">
+                    <div class="hero-text-box">
+                        <h1 class="heading-primary">Climate Change</h1>
+                        <p class="hero-description">
+                            You are not the problem. But you solve the problem.
+                        </p>
+                        <div class="hero-btn">
+                            <a class="btn" href="#cta"> Take action </a>
+                            <a class="btn btn--cta" href="#background">
+                                Learn more!
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-img-box">
+                        <img
+                            class="hero-img"
+                            src="header-img.jpg"
+                            alt="Images of smoke from factories, Trees under smoke, and forests burning"
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-background" id="background">
+                <div class="container">
+                    <span class="subheading">Background</span>
+                    <h2 class="heading-secondary">
+                        Climate Change: What is it?
+                    </h2>
+                    <div class="background-specifics">
+                        <p>
+                            Climate change is when the average global weather
+                            conditions change. Over the past decades, human
+                            activities have produced enormouse amounts of
+                            greenhouse gases. These gases get trapped in our
+                            atmosphere. As a result, global temperatures
+                            increase and harm our planet. We see numerous
+                            effects as a result of global warming.
+                        </p>
+                    </div>
+                    <div class="background-details grid grid-3--cols">
+                        <div class="background-effects">
+                            <img
+                                class="background-effects-img"
+                                src="air-quality.jpg"
+                                alt="Image of factories producing smoke"
+                            />
+                            <p class="background-effects-title">
+                                Poor air quality
+                            </p>
+                        </div>
+                        <div class="background-effects">
+                            <img
+                                class="background-effects-img"
+                                src="drought.jpg"
+                                alt="Image of dry land"
+                            />
+                            <p class="background-effects-title">
+                                Longer periods of drought
+                            </p>
+                        </div>
+                        <div class="background-effects">
+                            <img
+                                class="background-effects-img"
+                                src="oceans.jpg"
+                                alt="Image of iceberg and ocean"
+                            />
+                            <p class="background-effects-title">
+                                Increased flooding and rising oceans
+                            </p>
+                        </div>
+                        <div class="background-effects">
+                            <img
+                                class="background-effects-img"
+                                src="heat-waves.jpg"
+                                alt="Image of trees burning in a forest"
+                            />
+                            <p class="background-effects-title">
+                                Frequent cold and heat waves
+                            </p>
+                        </div>
+                        <div class="background-effects">
+                            <img
+                                class="background-effects-img"
+                                src="paul-gilmore-bGkMaCQ0e9o-unsplash.jpg"
+                                alt="Image of smoke above trees"
+                            />
+                            <p class="background-effects-title">
+                                Stronger storms, cyclones, and hurricanes
+                            </p>
+                        </div>
+                        <div class="background-effects">
+                            <img
+                                class="background-effects-img"
+                                src="ecosystems-dying.jpg"
+                                alt="Image of smoke above trees"
+                            />
+                            <p class="background-effects-title">
+                                Species extinction and dying ecosystems
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-problem" id="problem">
+                <span class="subheading">Causes</span>
+                <h2 class="heading-secondary">
+                    Modern Industrial Society is Inherently Destructive
+                </h2>
+
+                <div class="causes-box grid grid-4--cols">
+                    <div class="cause">
+                        <div class="cause-img-box">
+                            <img
+                                src="energy.jpg"
+                                alt="Image of smoke coming from a factory"
+                                class="cause-img"
+                            />
+                            <ion-icon
+                                name="battery-charging"
+                                class="icon"
+                            ></ion-icon>
+                        </div>
+                        <h3 class="heading-tertiary">Energy</h3>
+                        <p class="cause-description">
+                            Contributes to <strong>30%</strong> of global
+                            emissions! <strong>Coal</strong> is the most
+                            significant contributor.
+                        </p>
+                    </div>
+                    <div class="cause">
+                        <div class="cause-img-box">
+                            <img
+                                src="transportation.jpg"
+                                alt="Image of cars driving on a highway"
+                                class="cause-img"
+                            />
+                            <ion-icon name="car" class="icon"></ion-icon>
+                        </div>
+                        <h3 class="heading-tertiary">Transportation</h3>
+                        <p class="cause-description">
+                            Transportant contributes to over
+                            <strong>20%</strong> of global carbon emissions.
+                            <strong>Land-based travel</strong> is a significant
+                            threat to the environment.
+                        </p>
+                    </div>
+                    <div class="cause">
+                        <div class="cause-img-box">
+                            <img
+                                src="agriculture.jpg"
+                                alt="Image of grass in a crop field"
+                                class="cause-img"
+                            />
+                            <ion-icon name="leaf" class="icon"></ion-icon>
+                        </div>
+                        <h3 class="heading-tertiary">Agriculture</h3>
+                        <p class="cause-description">
+                            Agriculture contributes <strong>13-18%</strong> of
+                            global emissions! We rely on agriculture for food
+                            and the demand for food is steadily increasing.
+                        </p>
+                    </div>
+
+                    <div class="cause">
+                        <div class="cause-img-box">
+                            <img
+                                src="fashion.jpg"
+                                alt="Image of clothes on a hanger"
+                                class="cause-img"
+                            />
+                            <ion-icon name="shirt" class="icon"></ion-icon>
+                        </div>
+                        <h3 class="heading-tertiary">Fashion</h3>
+                        <p class="cause-description">
+                            The fashion industry currently produces
+                            <strong>10%</strong> of the global carbon emissions!
+                            By <strong>2050</strong>, it could produce up to a
+                            quarter of emissions.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-quotes" id="quotes">
+                <div class="container">
+                    <div>
+                        <span class="subheading">Quotes</span>
+                        <h2 class="heading-secondary">
+                            What Leaders Have To Say
+                        </h2>
+                    </div>
+                    <div class="quotes-container grid grid-2--cols">
+                        <blockquote class="quote-box">
+                            <ion-icon
+                                name="quote"
+                                class="quote-icon"
+                            ></ion-icon>
+                            <p class="quote-description">
+                                "The time is past when humankind thought it
+                                could selfishly draw on exhaustible resources.
+                                We know now the world is not a commodity.
+                            </p>
+                            <figcaption class="quote-author">
+                                Francous Hollande
+                            </figcaption>
+                            <p class="quote-title">
+                                &mdash;President of the French Republic
+                            </p>
+                        </blockquote>
+                        <blockquote class="quote-box">
+                            <ion-icon
+                                name="quote"
+                                class="quote-icon"
+                            ></ion-icon>
+                            <p class="quote-description">
+                                There's one issue that will define the contours
+                                of this century more dramatically than any
+                                other, and that is the urgent threat of a
+                                changing climate.
+                            </p>
+                            <figcaption class="quote-author">
+                                Barack Obama
+                            </figcaption>
+                            <p class="quote-title">
+                                &mdash;Former President of the United States of
+                                America
+                            </p>
+                        </blockquote>
+
+                        <div
+                            class="quote-box quote-box--last grid grid-3--cols"
+                        >
+                            <blockquote class="quote-last">
+                                <ion-icon
+                                    name="quote"
+                                    class="quote-icon"
+                                ></ion-icon>
+                                <p class="quote-description">
+                                    My message is that we'll be watching you.
+                                    This is all wrong. I shouldn't be up here. I
+                                    should be back in school on the other side
+                                    of the ocean. Yet you all come to us young
+                                    people for hope. How dare you. You have
+                                    stolen my dreams and my childhood with your
+                                    empty words. Yet I am one of the lucky ones.
+                                    People are suffering.
+                                </p>
+                                <figcaption class="quote-author">
+                                    Barack Obama
+                                </figcaption>
+
+                                <p class="quote-title">
+                                    &mdash;President of the United States of
+                                    America
+                                </p>
+                            </blockquote>
+                            <img
+                                src="greta-thunberg.jpg"
+                                alt="Image of Greta Thunberg"
+                                class="author-img"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-grey-areas" id="grey-areas">
+                <div class="container">
+                    <span class="subheading">Grey Areas</span>
+                    <h2 class="heading-secondary">
+                        It's More Complex Than You Think
+                    </h2>
+                </div>
+                <div class="container grid grid-2--cols complexity-box">
+                    <div class="complexity-text-box">
+                        <h3 class="heading-tertiary">Poverty vs Prosperity</h3>
+                        <p class="text-box-description">
+                            Richer people contribute to more emissions. But, 63%
+                            of globale emissions come from low to middle income
+                            countries.
+                        </p>
+                        <p class="text-box-description">
+                            Global emissions are produced from people trying to
+                            escape poverty and get to a comfortable lifestyle.
+                            This create unavoidable emissions produced to try
+                            and meet basic needs.
+                        </p>
+                    </div>
+                    <div class="complexity-img-box">
+                        <img
+                            class="complexity-img"
+                            src="poverty.jpg"
+                            alt="Image of landfills and garbage dumped."
+                        />
+                    </div>
+                    <div class="complexity-img-box">
+                        <img
+                            class="complexity-img"
+                            src="agriculture.jpg"
+                            alt="Image of landfills and garbage dumped."
+                        />
+                    </div>
+                    <div class="complexity-text-box">
+                        <h3 class="heading-tertiary">
+                            Agriculture and Food Production
+                        </h3>
+                        <p class="text-box-description">
+                            We have a growing population, and we can't feed this
+                            population wthout greenhouse gases.
+                        </p>
+                        <p class="text-box-description">
+                            Modern food production involves unavoidable emission
+                            of greenhouse gases. It's impossible to have
+                            zero-emission food.
+                        </p>
+                        <p class="text-box-description">
+                            57% of food emissions come from animal-based food
+                            and they only make up 18% of global calories supply.
+                        </p>
+                    </div>
+                    <div class="complexity-text-box">
+                        <h3 class="heading-tertiary">
+                            Climate Change is a Systemic Reality
+                        </h3>
+                        <p class="text-box-description">
+                            The systemic reality of global warming is bigger
+                            than one person can solve. Taking personal
+                            responsibility by using metal straws will not solve
+                            climate change.
+                        </p>
+                        <p class="text-box-description">
+                            If you removed 100% of your emissions for the rest
+                            of your life, you would ONLY save one second worth
+                            of emissions from the global energy sector.
+                        </p>
+                    </div>
+                    <div class="complexity-img-box complexity-img-box--last">
+                        <img
+                            class="complexity-img"
+                            src="climate-change.jpg"
+                            alt="Image of landfills and garbage dumped in landfills."
+                        />
+                    </div>
+                </div>
+            </section>
+
+            <section class="section-take-action" id="cta">
+                <div class="container">
+                    <span class="subheading">Take Action</span>
+                    <h2 class="heading-secondary">You Can Have An Influence</h2>
+                </div>
+
+                <div class="take-action-boxes grid grid-4--cols">
+                    <div class="take-action-box">
+                        <h1 class="number-icon">1</h1>
+                        <p>
+                            We must <strong>influence</strong> politicians who
+                            can promote change.
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">2</h1>
+                        <p>
+                            Make politicians feel strongly that their success
+                            <strong>depends on tackling climate change.</strong>
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">3</h1>
+                        <p>
+                            <strong>Vote out</strong> people who don't respect
+                            climate change strategies.
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">4</h1>
+                        <p>
+                            <strong>Hold politicans accountable</strong> for
+                            implementing effective climate change strategies.
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">5</h1>
+                        <p>
+                            <strong>Change laws</strong> and
+                            <strong>incentivize</strong> deployment of existing
+                            technologies.
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">6</h1>
+                        <p>
+                            <strong>Invest</strong> in innovation in fields that
+                            don't have great solutions.
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">7</h1>
+                        <p>
+                            <strong>Align industries</strong> to match the need
+                            to reduce carbon emissions.
+                        </p>
+                    </div>
+                    <div class="take-action-box">
+                        <h1 class="number-icon">8</h1>
+                        <p>
+                            Incorporate <strong>harsh sanctions</strong> on
+                            companies that don't abide by climate change laws.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="section-cta">
+                <div class="container cta">
+                    <h2 class="heading-secondary">Take Action</h2>
+                    <a
+                        class="btn"
+                        href="https://www.theclimatecoalition.org/write-to-your-mp"
+                        target="_blank"
+                        >Email your local leader today</a
+                    >
+                </div>
+            </section> -->
+        </main>
+
+        <!-- <footer class="footer">
+            <div class="container grid grid--footer">
+                <div class="logo-col">
+                    <a href="#" class="footer-logo">
+                        <img
+                            src="img/Climate Change-logo.png"
+                            alt="Climate Change Logo"
+                            class="logo-footer"
+                        />
+                    </a>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon
+                                    class="social-icon md hydrated"
+                                    name="logo-instagram"
+                                    role="img"
+                                    aria-label="logo instagram"
+                                ></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon
+                                    class="social-icon md hydrated"
+                                    name="logo-facebook"
+                                    role="img"
+                                    aria-label="logo instagram"
+                                ></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer-link">
+                                <ion-icon
+                                    class="social-icon md hydrated"
+                                    name="logo-twitter"
+                                    role="img"
+                                    aria-label="logo instagram"
+                                ></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright">
+                        Copyright &copy; <span class="year">2022</span> by Uzair
+                        Mohiuddin, Inc. All Rights reserved.
+                    </p>
+                </div>
+                <nav class="more-information-col">
+                    <p class="footer-heading">More Information</p>
+                    <ul class="footer-nav">
+                        <li>
+                            <a
+                                href="https://climatekids.nasa.gov/"
+                                target="_blank"
+                                class="footer-link"
+                                >NASA's Climate Kids</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.jpl.nasa.gov/edu/teach/tag/search/Climate+Change"
+                                target="_blank"
+                                class="footer-link"
+                                >Climate Change Lessons: JPL Education</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="http://www.climate.gov/teaching"
+                                target="_blank"
+                                class="footer-link"
+                                >NOAA: Teaching Climate</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="http://www.cleanet.org/"
+                                target="_blank"
+                                class="footer-link"
+                                >Climate Literacy & Energy Awareness Network</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.energy.gov/eere/education/education-resources"
+                                target="_blank"
+                                class="footer-link"
+                                >US Department of Energy Education Resources</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="resources-col">
+                    <p class="footer-heading">Resources</p>
+                    <ul class="footer-nav">
+                        <li>
+                            <a
+                                href="http://www.highco2-iv.org/"
+                                target="_blank"
+                                class="footer-link"
+                                >UNESCO</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www3.epa.gov/climatechange"
+                                target="_blank"
+                                class="footer-link"
+                                >Environmental Protection Agency</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="http://www.globalchange.gov/"
+                                target="_blank"
+                                class="footer-link"
+                                >US Global Change Research Program</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://www.rcen.ca/en/home"
+                                target="_blank"
+                                class="footer-link"
+                                >Canadian Environmental Network</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="https://climateactionnetwork.ca/who-we-are/"
+                                target="_blank"
+                                class="footer-link"
+                                >Climate Action Network</a
+                            >
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </footer> -->
+    </body>
+</html>

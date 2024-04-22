@@ -1,0 +1,476 @@
+/****************/
+/* HERO SECTION */
+/****************/
+.section-hero {
+    padding: 4.8rem 0 9.6rem 0;
+    background-image: linear-gradient(#d0ebff, #fff);
+    letter-spacing: 0;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 4.8rem;
+
+    max-width: 130rem;
+    margin: 0 auto;
+
+    padding: 0 3.2rem;
+}
+
+.hero-img {
+    width: 100%;
+    /* border-radius: 50%; */
+    border: 1px;
+}
+
+.hero-description {
+    font-size: 2.8rem;
+    color: #0f172a;
+    font-weight: 500;
+    margin-bottom: 6.4rem;
+}
+
+.hero-btn {
+    display: flex;
+    gap: 2.4rem;
+}
+
+.btn--cta,
+.btn--cta:link,
+.btn--cta:visited {
+    background-color: #0369a1;
+    transition: all 0.3s;
+}
+
+.btn--cta:hover,
+.btn--cta:active {
+    /* text-shadow: 1px 1px 1px #0369a1; */
+    background-color: #dbeafe;
+    color: #1e293b;
+}
+
+/**********************/
+/* NAVIGATION SECTION */
+/**********************/
+
+.header {
+    background-color: #d0ebff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 9.6rem;
+    padding: 2.4rem 5.2rem;
+    position: relative;
+}
+
+.logo {
+    height: 7.4rem;
+}
+
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 4.8rem;
+    margin-right: 2.4rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    display: inline-block;
+    text-decoration: none;
+    font-family: inherit;
+    font-size: 2.2rem;
+    color: #1e293b;
+    position: relative;
+
+    transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    text-shadow: 0 0 0.5px #0369a1;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.main-nav-link--underline:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    background: #1e293b;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.main-nav-link--underline:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.main-nav-link.nav-cta:link,
+.main-nav-link.nav-cta:visited {
+    display: inline-block;
+    padding: 1.6rem 3.2rem;
+
+    border-radius: 2px;
+    border: none;
+    color: #dbeafe;
+    background-color: #1e293b;
+
+    transition: all 0.3s;
+}
+
+.main-nav-link.nav-cta:hover,
+.main-nav-link.nav-cta:active {
+    background-color: #d0ebff;
+    color: #1e293b;
+    text-shadow: 0 0 0.65px #ddd;
+    box-shadow: inset 0 0 0 3px #111;
+}
+
+/* MOBILE NAV */
+.toggle-button {
+    border: none;
+    background-color: #dbeafe;
+    cursor: pointer;
+
+    /* position: absolute; */
+    top: 3%;
+    right: 3%;
+    margin-right: 2.4rem;
+    display: none;
+}
+
+.bar {
+    width: 4.8rem;
+    height: 4.8rem;
+    fill: #1e293b;
+}
+
+.bar[name="close"] {
+    display: none;
+}
+
+/**********************/
+/* BACKGROUND SECTION */
+/**********************/
+.section-background {
+    padding: 4.8rem 0 9.6rem 0;
+}
+
+.background-details {
+    column-gap: 9.6rem;
+    row-gap: 3.2rem;
+}
+
+.background-specifics {
+    text-align: center;
+    font-size: 2.4rem;
+    /* line-height: 1.3; */
+    margin-bottom: 6.4rem;
+}
+
+.background-effects {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* .box {
+    overflow: hidden;
+} */
+
+.background-effects-img {
+    width: 100%;
+    opacity: 75%;
+    transition: all 0.3s;
+}
+
+.background-effects-img:hover {
+    transform: scale(1.05);
+}
+
+.background-effects-title {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+
+/****************************/
+/* PROBLEM & CAUSES SECTION */
+/****************************/
+.section-problem {
+    max-width: 175rem;
+    margin: 0 auto;
+    padding: 4.8rem 6.4rem 9.6rem;
+}
+
+.causes-box {
+    gap: 3.2rem;
+}
+
+.cause-img-box {
+    position: relative;
+    margin-bottom: 4.8rem;
+}
+
+.cause-img {
+    width: 100%;
+    z-index: -1;
+    filter: brightness(60%);
+    filter: grayscale(80%);
+    opacity: 75%;
+}
+
+.cause-description {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+/*****************************/
+/* QUOTES OF LEADERS SECTION */
+/*****************************/
+.section-quotes {
+    padding: 4.8rem 6.4rem 9.6rem;
+}
+
+.quotes-container {
+    column-gap: 4.8rem;
+    row-gap: 4.8rem;
+}
+
+.quote-box:not(:last-child) {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 3.2rem 4.8rem;
+}
+
+.quote-description {
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.quote-author {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
+.quote-title {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+/* QUOTE BOX STYLES */
+.quote-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    fill: #1e293b;
+    transform: scaleX(-1);
+}
+
+/* LAST QUOTE BOX w/ IMAGE */
+
+.quote-box--last {
+    grid-column: 1/-1;
+    gap: 4.8rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-last {
+    grid-column: 1 / 3;
+    padding: 3.2rem 0 3.2rem 4.8rem;
+}
+
+.author-img {
+    width: 100%;
+    filter: brightness(60%);
+    filter: grayscale(80%);
+    opacity: 75%;
+}
+
+/**********************/
+/* GREY AREAS SECTION */
+/**********************/
+.section-grey-areas {
+    padding: 4.8rem 6.4rem 9.6rem;
+}
+
+.complexity-box {
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.complexity-img-box {
+    align-self: center;
+    justify-self: center;
+}
+
+.complexity-img {
+    width: 95%;
+    filter: brightness(60%);
+    filter: grayscale(80%);
+    opacity: 75%;
+}
+
+.text-box-description {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+/***********************/
+/* TAKE ACTION SECTION */
+/***********************/
+.section-take-action {
+    padding: 4.8rem 6.4rem 9.6rem;
+}
+
+.take-action-boxes {
+    max-width: 175rem;
+    margin: 0 auto;
+
+    column-gap: 4.8rem;
+    row-gap: 4.8rem;
+    justify-items: center;
+}
+
+.take-action-box {
+    background-color: rgba(221, 221, 221, 0.4);
+    font-size: 2.4rem;
+    color: #1e293b;
+    padding: 6.4rem 1.2rem 3.2rem;
+    text-align: center;
+    border-radius: 2px;
+
+    position: relative;
+    transition: all 0.3s;
+}
+
+.take-action-box:hover {
+    transform: scale(1.1);
+}
+
+.number-icon {
+    position: absolute;
+    top: -10%;
+    left: 50%;
+
+    transform: translateX(-50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 0.5rem 2rem;
+    background-color: #1e293b;
+    color: #fff;
+}
+
+/***************/
+/* CTA SECTION */
+/***************/
+.section-cta {
+    padding: 0 6.4rem 9.6rem;
+}
+
+.cta {
+    background-image: linear-gradient(
+            rgba(100, 100, 100, 0.2),
+            rgba(100, 100, 100, 0.2)
+        ),
+        url("/img/smog.jpg");
+    background-position: center;
+    background-size: 100%;
+    padding: 4.8rem 6.4rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/******************/
+/* FOOTER SECTION */
+/******************/
+.footer {
+    padding: 12.8rem 0;
+    border-top: 1px solid #eee;
+    background-color: rgba(208, 235, 255, 0.5);
+}
+
+.grid--footer {
+    grid-template-columns: 4fr 4fr 4fr;
+    row-gap: 12.8rem;
+    column-gap: 12.8rem;
+}
+
+.logo-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo {
+    /* display: inline-block; */
+    margin-bottom: 3.2rem;
+}
+
+.logo-footer {
+    width: 100%;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    gap: 2.4rem;
+    /* align-self: center; */
+    padding-left: 2.4rem;
+}
+
+.social-icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    fill: #1e293b;
+}
+
+.copyright {
+    font-size: 1.4rem;
+    line-height: 1.6;
+    color: #767676;
+    margin-top: auto;
+    padding: 1.2rem 1.2rem 3.2rem;
+}
+
+.more-information-col,
+.resources-col {
+    padding: 2.4rem 0;
+}
+
+.footer-heading {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-bottom: 4rem;
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: inherit;
+    transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+    color: #555;
+}
